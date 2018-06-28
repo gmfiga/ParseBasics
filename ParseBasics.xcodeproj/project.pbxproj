@@ -18,8 +18,8 @@
 		81BA817B1A49E0E500E65899 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA817A1A49E0E500E65899 /* SystemConfiguration.framework */; };
 		8374E1021D9AB18E00E7A0B7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8374E1011D9AB18E00E7A0B7 /* libsqlite3.tbd */; };
 		8374E1041D9AB24200E7A0B7 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8374E1031D9AB24200E7A0B7 /* libstdc++.6.tbd */; };
-		C3E8B94520E560BE008C2EC2 /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8B94420E560BE008C2EC2 /* LoggedInViewController.swift */; };
-		C3E8B94920E568DF008C2EC2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8B94820E568DF008C2EC2 /* Extensions.swift */; };
+		C3E8B94F20E57C15008C2EC2 /* Extensions2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8B94E20E57C15008C2EC2 /* Extensions2.swift */; };
+		C3E8B95120E57C63008C2EC2 /* LoggedInViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8B95020E57C63008C2EC2 /* LoggedInViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +36,8 @@
 		81BA817A1A49E0E500E65899 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		8374E1011D9AB18E00E7A0B7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		8374E1031D9AB24200E7A0B7 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
-		C3E8B94420E560BE008C2EC2 /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoggedInViewController.swift; path = ../../../../Documents/LoggedInViewController.swift; sourceTree = "<group>"; };
-		C3E8B94820E568DF008C2EC2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../../Documents/Extensions.swift; sourceTree = "<group>"; };
+		C3E8B94E20E57C15008C2EC2 /* Extensions2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions2.swift; sourceTree = "<group>"; };
+		C3E8B95020E57C63008C2EC2 /* LoggedInViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +89,9 @@
 			isa = PBXGroup;
 			children = (
 				81BA814A1A49DA1800E65899 /* AppDelegate.swift */,
-				C3E8B94820E568DF008C2EC2 /* Extensions.swift */,
+				C3E8B94E20E57C15008C2EC2 /* Extensions2.swift */,
+				C3E8B95020E57C63008C2EC2 /* LoggedInViewController2.swift */,
 				81BA814C1A49DA1800E65899 /* ViewController.swift */,
-				C3E8B94420E560BE008C2EC2 /* LoggedInViewController.swift */,
 				814C3AC61B69877600E307BB /* Main.storyboard */,
 			);
 			path = ParseStarterProject;
@@ -190,10 +190,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3E8B94520E560BE008C2EC2 /* LoggedInViewController.swift in Sources */,
+				C3E8B94F20E57C15008C2EC2 /* Extensions2.swift in Sources */,
 				81BA814D1A49DA1800E65899 /* ViewController.swift in Sources */,
+				C3E8B95120E57C63008C2EC2 /* LoggedInViewController2.swift in Sources */,
 				81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */,
-				C3E8B94920E568DF008C2EC2 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

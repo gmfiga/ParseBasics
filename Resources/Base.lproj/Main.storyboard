@@ -96,7 +96,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Log Out"/>
                                 <connections>
-                                    <action selector="logoutOfApp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gdG-Ee-96C"/>
+                                    <action selector="logoutOfApp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dw0-7R-XWq"/>
                                 </connections>
                             </button>
                         </subviews>
